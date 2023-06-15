@@ -79,6 +79,16 @@ class Animals{
     }
 }
 class Predator extends Animals{
-     return `feeds `
+        knowAnimal(){
+            return `feeds on ${this.diet} and has a lifespan of ${this.lifespan} and has the following ${this.migrationpatterns}`
+
+           }
 }
+class Prey extends Animals{
+    knowAnimal(){
+        return `feeds on ${this.diet} and has a lifespan of ${this.lifespan} and has the following ${this.migrationpatterns}`
+
+       }
+}
+
 
