@@ -71,4 +71,14 @@ let ethipian=new EthiopianRecipee("salt","20 minutes","frying","vitamins")
 console.log(ethipian.getethiopianrecipee())
 let nigerian=new NigerianRecipee("salt","20 minutes","frying","vitamins")
 console.log(nigerian.getnigerainRecipee())
+class Animals{
+    constructor(diet,lifespan,migrationpatterns){
+        this.diet=diet
+        this.lifespan=lifespan
+        this.migrationpatterns=migrationpatterns
+    }
+}
+class Predator extends Animals{
+     return `feeds `
+}
 
